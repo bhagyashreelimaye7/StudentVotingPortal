@@ -1,0 +1,27 @@
+<html>
+<head>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+	<?php include("header.php");?>
+	<form method="post" action="login.php">
+		<table>
+			<tr>
+				<td>Roll Number :-</td>
+				<td><input type="text" name="prn"</td>
+			</tr>
+			<tr>
+				<td>Password &nbsp; &nbsp; &nbsp;:-</td>
+				<td><input type="Password" name="password"</td>
+			</tr>
+			<tr>
+				<td colspace="2"><input type="submit" class="btn btn-success"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
